@@ -8,10 +8,10 @@ let x = 0
 
 const items = {
   1:"item 1",
-  2:"notItem2",
+  2:"notItem",
 }
 app.get('/', (req, res) => {
-  res.send('Hello World!')
+  res.send('Hello World')
 })
 
 app.get('/item/:id', (req, res) => {
